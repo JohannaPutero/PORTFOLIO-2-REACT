@@ -22,7 +22,7 @@ function Contacto() {
          
             <div className='contenedorformulario'>
 
-            <form className='formulario' action="https://formsubmit.co/johannaputero@gmail.com" method="POST"> 
+            <form className='formulario' action="https://formsubmit.co/johannayumi@gmail.com" method="POST"> 
               
               <p className='texto'>
 
