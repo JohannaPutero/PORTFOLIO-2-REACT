@@ -1,0 +1,109 @@
+.sobremi{
+    color: white;
+    font-family: Source Sans Pro;
+    font-size: 3rem;    
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+
+
+.mundo{
+    color: rgb(49, 49, 61);
+    width: 50%;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    
+}
+.contenedorimagentexto{
+display: flex;
+align-items: center;
+
+  
+
+}
+.presentacion{
+    font-weight: 200;
+    font-size: 1.5rem;
+    width: 75%;
+}
+
+.presentacion:hover{
+    
+    animation-name: traslacion;
+    animation-duration: 2s;
+}
+.mundo:hover{
+    animation-name: aparicion;
+    animation-duration: 2s;
+    
+}
+img:hover{
+    height: 200px ;
+    width: 200px;
+    
+}
+
+@keyframes aparicion{
+    0%{ opacity: 0;
+     
+ }
+ 100%{ opacity: 1; 
+     
+ }
+ }
+
+
+.fotocv{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+img{
+    height: 150px ;
+    width: 150px;
+    border-radius: 100%;
+    border:4px solid rgb(59, 153, 125);
+    margin: 50px;
+}
+
+@media(max-width: 700px){
+
+    .contenedorimagentexto{
+        display: block;
+    }
+    
+    .mundo{
+        width: 100%;
+
+    }   
+
+    .fotocv{
+        margin-top: 50px;
+        width: 100%;
+        height: 100px ;
+        width: 100px;
+        margin: 30px;
+        
+    }
+
+    .presentacion{
+        width: 100%;
+    }
+        
+        
+
+}

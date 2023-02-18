@@ -1,0 +1,79 @@
+
+.contenedorhea{
+    background-color: rgb(22, 22, 29);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top:20px ;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+   
+
+}
+
+.logo{
+    font-family: Source Sans Pro;
+    font-weight: 200;
+    font-size: 20px;
+    color: white;
+    
+}
+.logo:hover{
+    color: rgb(59, 153, 125);
+
+}
+
+
+.navegador{
+    
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    letter-spacing: 0.5px;
+    margin: 10px;
+    padding-bottom: 20px;
+    position: relative;
+
+   
+
+}
+.navegador:hover{
+    border-bottom:rgb(59, 153, 125) solid 3px ;
+ }
+
+ .hamburguesa{
+    color: white;
+    display: none; /*no quiero que aparezca en pantallas grandes, solo en chicas*/
+    cursor: pointer;
+    font-size: 32px;
+}
+
+@media(max-width: 700px){
+  
+    .navegador{
+        display: block;
+        
+    }
+    .nav{
+        display: none;
+    }
+    
+    .hamburguesa{
+        display: block;
+        margin: 10px;
+    }
+    .contenedorhea{
+        flex-direction: column;
+        justify-content: center;
+    }
+   
+    .nav.open{
+        display: block;
+        animation-name: traslacion;
+        animation-duration: 2s;
+    
+    }
+}

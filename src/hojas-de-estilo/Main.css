@@ -1,0 +1,73 @@
+.contenedor-Mai{
+ 
+    background-image:url(../imagenes/Fondoespacio.jpg);
+    color: white;
+    font-family: Source Sans Pro;
+    font-size: 3rem;    
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    
+     
+}
+.hola{
+    margin-top: 150px;
+    text-align: left;
+    animation-name: traslacion;
+    animation-duration: 2s; 
+}
+
+@keyframes traslacion{
+    0%{ transform: translateX(120px) 
+     
+ }
+ 100%{ transform: translateX(0) 
+     
+ }
+}
+
+
+.ubicacion{
+    font-family: Source Sans Pro;
+    font-size: 1.5rem;    
+    font-weight: 200;
+    display: flex;
+    letter-spacing: 0.2rem;
+    margin-top: 30px; 
+    animation-name: traslacion;
+    animation-duration: 2s; 
+    
+}
+.mantengamonos{
+    background-color: transparent;
+    font-family: Source Sans Pro;
+    padding: 0.9rem 1.6rem;
+    border: 2px solid rgb(59, 153, 125);
+    color: white;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 40px;
+     
+
+}
+.mantengamonos:hover{
+    background: transparent;
+    border-color: blanchedalmond;
+    color: rgb(59, 153, 125);
+    
+ }
+
+ 
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+}
