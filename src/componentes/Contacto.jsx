@@ -18,11 +18,13 @@ function Contacto() {
               <a href="mailto:jputero@fi.uba.ar" className='red'><i className='bi bi-envelope'></i></a>
             
             </div>
+         
+          
          </div>     
          
             <div className='contenedorformulario'>
 
-            <form className='formulario' action="https://formsubmit.co/johannayumi@gmail.com" method="POST"> 
+            <form className='formulario' action="https://formsubmit.co/johannayumigit@gmail.com" method="POST"> 
               
               <p className='texto'>
 
@@ -52,6 +54,7 @@ function Contacto() {
          
         </form>
         </div>
+       
       </div>  
   
   
