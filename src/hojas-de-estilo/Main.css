@@ -2,7 +2,7 @@
  
     background-image:url(../imagenes/Fondoespacio.jpg);
     color: white;
-    font-family: Source Sans Pro;
+    font-family: Source Sans Pro,Arial, Helvetica, sans-serif;
     font-size: 3rem;    
     font-weight: 700;
     display: flex;
@@ -34,7 +34,7 @@
 
 
 .ubicacion{
-    font-family: Source Sans Pro;
+    font-family: Source Sans Pro,Arial, Helvetica, sans-serif;
     font-size: 1.5rem;    
     font-weight: 200;
     display: flex;
@@ -46,7 +46,7 @@
 }
 .mantengamonos{
     background-color: transparent;
-    font-family: Source Sans Pro;
+    font-family: Source Sans Pro,Arial, Helvetica, sans-serif;
     padding: 0.9rem 1.6rem;
     border: 2px solid rgb(59, 153, 125);
     color: white;

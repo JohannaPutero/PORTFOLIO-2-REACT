@@ -22,7 +22,7 @@ const Header = () => {
           <div className={`nav ${isOpen && "open"}`}>
              <a href="#sobremi" className="navegador"> <span>01 .</span> Sobre mí </a>
              <a href="#educacion" className="navegador"> <span>02 .</span> Educación</a>
-             <a href="#proyecos" className="navegador"> <span>03 .</span> Proyectos</a>
+             <a href="#proyecto" className="navegador"> <span>03 .</span> Proyectos</a>
              <a href="#contacto" className="navegador"> <span>04 .</span> Contacto</a>
            </div>
 

@@ -14,7 +14,7 @@ function Main() {
             Soy Desarrolladora Web Front-End <br></br>
            
         </p>
-        <div className='ubicacion'>
+        <div className='ubicacion' >
             <i className='bi bi-geo-alt'></i>
             <p>
                 Provincia de Buenos Aires, Argentina.
