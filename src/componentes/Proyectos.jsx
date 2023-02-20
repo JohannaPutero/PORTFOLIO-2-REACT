@@ -4,9 +4,11 @@ import '../hojas-de-estilo/Proyectos.css';
 function Proyectos() {
   return (
 <div className='contenedor-pro' id='proyecto'>
+<h1 className="edu">Proyectos</h1>
 
 <div class="wrap">
 		<div class="tarjeta-wrap">
+		    
 			<div class="tarjeta">
 				<div class="adelante card1"></div>
 				<div class="atras">

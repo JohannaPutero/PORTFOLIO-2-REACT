@@ -38,11 +38,6 @@
 
 
 
-
-
-
-
-
 .tarjeta-wrap{
 	margin: 10px;
 	-webkit-perspective: 800;
@@ -52,7 +47,7 @@
 .tarjeta{
 	width: 300px;
 	height: 350px;
-	background: #F29720;
+	background: rgb(59, 153, 125);
 	position: relative;
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
