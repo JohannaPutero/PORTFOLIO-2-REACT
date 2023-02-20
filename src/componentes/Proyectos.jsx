@@ -25,7 +25,7 @@ function Proyectos() {
 				<div class="atras">
 				    <h1>Blog de viajes</h1>
 					<p> 
-					 Página web para viajeros. Cuenta con la mejor información turística sobre Islandia: Hospedajes, excuriciones, mercados, mapas locales y rutas recomendadas.
+					 Página web para viajeros. Cuenta con la mejor información turística sobre Islandia: Hospedajes, excursiones, mercados, mapas locales y rutas recomendadas.
 					</p>
 				</div>
 			</div>
@@ -36,7 +36,7 @@ function Proyectos() {
 				<div class="atras">
 				    <h1>E-commerce</h1>
 					<p> 
-					 App para compras. Diseñada para un mercado local, perimite visualizar los productos en stock, llenar el carrito,realizar pagon online y coordinar envíos.
+					 App para compras. Diseñada para un mercado local, permite visualizar los productos en stock, llenar el carrito, realizar pagos online y coordinar envíos.
 					</p>
 				</div>
 			</div>

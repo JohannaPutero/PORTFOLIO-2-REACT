@@ -23,6 +23,7 @@ function Contacto() {
          </div>     
          
             <div className='contenedorformulario'>
+              <h1 className='form'>Formulario de contacto</h1>
 
             <form className='formulario' action="https://formsubmit.co/johannayumigit@gmail.com" method="POST"> 
               
@@ -31,6 +32,10 @@ function Contacto() {
                <label for="nombre" className="colocar_nombre">Nombre :
                </label>
                  <input clatype="text" name="introducir_nombre" id="nombre" required="obligatorio" ></input>   
+
+                 <label for="nasunto" className="colocar_asunto">Asunto :
+                 </label>
+                 <input clatype="text" name="introducir_asunto" id="asunto" required="obligatorio" ></input>   
               
 
              
