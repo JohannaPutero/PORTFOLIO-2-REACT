@@ -10,8 +10,6 @@ function Educacion() {
                    <h3>2016</h3>
                   <div className="descripcion">
                     Ingeniería de Procesos (UBA) <br></br>
-
-
                   </div>
                </div>
                <div className="momento">

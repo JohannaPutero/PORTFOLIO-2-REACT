@@ -21,7 +21,7 @@ function Descripcion() {
                 <img src={require('../imagenes/foto-cv.jpg')} alt='Foto de Johanna'/>
              
                <p className='presentacion'>
-               Soy Desarrolladora Web Front-End. Domino los principios de HTML, CSS, Javascript y <span>React</span>. 
+               Soy Desarrolladora Web Front-End. Domino los principios de HTML, CSS, Javascript y <span>React</span>. Cuento con sólidos conocimientos en <span>ingeniería</span>.
                </p>
 
           </div>

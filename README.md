@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Portolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta aplicación ha sido creada con React.
 
 ## Available Scripts
 
-In the project directory, you can run:
+En la terminal del proyecto puede ejecutar:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Ejecuta la aplicación en el modo de desarrollo.\
+Abra [http://localhost:3000](http://localhost:3000) para verlo en su navegador.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## GitHub
 
-### `npm test`
+Puede encontrar el proyecto en https://github.com/JohannaPutero/PORTFOLIO-2-REACT
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Deploy
 
-### `npm run build`
+Puede ver el proyecyo deployado en el siguiente link: https://portfolio-2-react.vercel.app/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Descripcion
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+El diseño de la aplicación ha sido inspirado en el siguiente portfolio: https://www.behance.net/gallery/157263277/Portofolio-web-Frontend-developer-inspired/modules/887227397 publicado en  https://www.behance.net/ . Cuenta con información personal. Es de la forma landing page y permite scrollear por varias secciones. Se ha buscado que para la visualización en escritorio cada seccion ocupe la totalidad de la pantalla.
+Se ha probado en diferentes dispositivos con distintas resoluciones desarrollandolo de forma responsive (mediante media queries).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Secciones
 
-### `npm run eject`
+# Header
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Cuenta con un navegador que redirecciona a las diferentes secciones del proyecto. Los botones cuentan con efecto Hover (consiste en la alteración del aspecto de un elemento de la interfaz gráfica​ cuando se sitúa el puntero sobre el mismo, pero no se ha seleccionado aún). Para dispositivos de resoluciones menores a 700 px de ancho se transforma en un menú hamburguesa que permite desplegarlo mediante el evento de JavaScript "onclick" (este ejecuta una función cuando se le da clic a un elemento).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Main
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contiene la primer visualización que hará el usuario. Cuenta con una breve presentación y un botón que redirecciona a la sección "contacto". Se le ha dado animaciones de traslación con @keyframes y también efecto Hover. Contiene también un botón que redirecciona a la sección "sobre mí". 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Descripcion
 
-## Learn More
+ Cuenta con una breve descripción y un botón que redirecciona a la sección "educacion". Se le ha dado animaciones de traslación y aparición con @keyframes y también efecto Hover. La imagen puede agrandarse al pasar el cursor por ella.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Educacion
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contiene una línea temporal que indica los estudios realizados con sus respectivos años de inicio. Contiene un botón que redirecciona a la sección "proyectos". 
 
-### Code Splitting
+# Proyectos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contiene solo a modo ilustrativo tres proyectos. Se le ha dado rotación a las tarjetas mediante el efeco Hover. En caso querer linkear las tarjetas con proyectos reales puede agregarse la etiqueta "a" redireccionandolo a sus respectivas url.
+Contiene un botón que desplaza hacia la sección "contacto". 
 
-### Analyzing the Bundle Size
+# Contacto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Cuenta con un formulario de contacto al cual se le ha dado funcionalidad mediante la API "FormSubmit" : https://formsubmit.co/, que permite al usuario cargar los datos de contacto y su mensaje y enviarlos a la casilla de mail especificada por el programador.
+Contiene también íconos que redireccionan a diferentes redes sociales.
+Cuenta con un botón con efecto hover que desplaza hacia la sección "Main". 
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Herramientas utilizadas: 
 
-### Advanced Configuration
+- ColorZilla para respetar los colores del diseño: https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Bootstrap Icons para los iconos: https://icons.getbootstrap.com/
 
-### Deployment
+- Google Fonts para la tipografía: https://fonts.google.com/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Pexels para imagenes: https://www.pexels.com/
 
-### `npm run build` fails to minify
+- API "FormSubmit" para formulario: https://formsubmit.co/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Vercel para deploy: https://vercel.com/
+
+
+## Autora: Johanna Belén Putero.
+
